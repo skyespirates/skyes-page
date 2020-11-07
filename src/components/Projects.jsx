@@ -1,46 +1,63 @@
 import React from "react";
 import { Card, Button } from "react-bootstrap";
-export default function Projects() {
+export default function Projects(props) {
   return (
-    <div className="container" style={{ marginBottom: "10vh" }}>
+    <div
+      id={props.id}
+      className="container"
+      style={{ marginTop: "56px", paddingTop: "56px" }}
+    >
       <h1 className="text-center">My Recent Works</h1>
       <div className="row">
         <Card style={{ width: "30%" }}>
           <Card.Img variant="top" src="https://picsum.photos/200" />
           <Card.Body>
-            <Card.Title>Card Title</Card.Title>
+            <Card.Title>Simple React App</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              Apply react component, props, state and setState
             </Card.Text>
-            <Button variant="primary" style={{ float: "right" }}>
-              Read More
+            <Button
+              target="_blank"
+              href="https://skyespirates.github.io/react-tutorial/"
+              variant="primary"
+              className=""
+            >
+              Visit
             </Button>
           </Card.Body>
         </Card>
         <Card style={{ width: "30%" }}>
           <Card.Img variant="top" src="https://picsum.photos/200" />
           <Card.Body>
-            <Card.Title>Card Title</Card.Title>
+            <Card.Title>Simple Todo App Using ReactJS</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              You can input and delete todo. Create using ReactJS and get
+              requests and responses from Jsonplaceholder using Axios.
             </Card.Text>
-            <Button variant="primary" style={{ float: "right" }}>
-              Read More
+            <Button
+              target="_blank"
+              href="https://skyespirates.github.io/todo-list/"
+              variant="primary"
+              className=""
+            >
+              Visit
             </Button>
           </Card.Body>
         </Card>
         <Card style={{ width: "30%" }}>
           <Card.Img variant="top" src="https://picsum.photos/200" />
           <Card.Body>
-            <Card.Title>Card Title</Card.Title>
+            <Card.Title>Simple Input Handling</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              Just test a simple app. It does input handling.
             </Card.Text>
-            <Button variant="primary" style={{ float: "right" }}>
-              Read More
+            <Button
+              target="_blank"
+              href="https://skyespirates.github.io/testing/"
+              variant="primary"
+              className=""
+            >
+              Visit
             </Button>
           </Card.Body>
         </Card>

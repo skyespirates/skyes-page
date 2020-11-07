@@ -1,8 +1,12 @@
 import React from "react";
 
-export default function Contact() {
+export default function Contact(props) {
   return (
-    <div className="container" style={{ marginBottom: "10vh" }}>
+    <div
+      id={props.id}
+      className="container"
+      style={{ marginTop: "56px", marginBottom: "56px", paddingTop: "56px" }}
+    >
       <h1 className="text-center">Contact</h1>
       <form style={{ width: "40%", margin: "0 auto" }}>
         <div class="form-group">

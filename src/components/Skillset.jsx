@@ -1,8 +1,12 @@
 import React from "react";
 
-export default function Skillset() {
+export default function Skillset(props) {
   return (
-    <div className="container" style={{ marginBottom: "10vh" }}>
+    <div
+      id={props.id}
+      className="container"
+      style={{ marginTop: "56px", paddingTop: "56px" }}
+    >
       <h1 className="text-center">Skillset</h1>
       <ul class="list-group" style={style}>
         <li class="list-group-item">HTML5</li>

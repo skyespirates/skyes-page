@@ -2,7 +2,7 @@ import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 export default function Mavbar() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="dark" variant="dark" expand="lg">
       <div className="container">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Brand className="d-none d-lg-block" href="#home">
