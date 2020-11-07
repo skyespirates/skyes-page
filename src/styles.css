@@ -1,7 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .container-fluid {
   height: 60vh;
-  border: 1px solid black;
+  background-color: rgb(197, 197, 197);
   text-align: center;
   display: flex;
   align-items: center;
+}
+.row {
+  justify-content: space-between;
 }
