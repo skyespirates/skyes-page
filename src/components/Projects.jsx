@@ -13,7 +13,7 @@ export default function Projects(props) {
           <Card.Img variant="top" src="https://picsum.photos/200" />
           <Card.Body>
             <Card.Title>Simple React App</Card.Title>
-            <Card.Text>
+            <Card.Text className="d-none d-md-block">
               Apply react component, props, state and setState
             </Card.Text>
             <Button
@@ -30,7 +30,7 @@ export default function Projects(props) {
           <Card.Img variant="top" src="https://picsum.photos/200" />
           <Card.Body>
             <Card.Title>Simple Todo App Using ReactJS</Card.Title>
-            <Card.Text>
+            <Card.Text className="d-none d-md-block">
               You can input and delete todo. Create using ReactJS and get
               requests and responses from Jsonplaceholder using Axios.
             </Card.Text>
@@ -48,7 +48,7 @@ export default function Projects(props) {
           <Card.Img variant="top" src="https://picsum.photos/200" />
           <Card.Body>
             <Card.Title>Simple Input Handling</Card.Title>
-            <Card.Text>
+            <Card.Text className="d-none d-md-block">
               Just test a simple app. It does input handling.
             </Card.Text>
             <Button
